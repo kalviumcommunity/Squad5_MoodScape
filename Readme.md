@@ -38,4 +38,4 @@ We welcome contributions from the community! If you'd like to contribute to Mood
 
 ## Contact
 
-For inquiries or support, please contact [projectmaintainer@example.com](mailto:nathawatr7@gmail.com).
+For inquiries or support, please contact [nathawatr7@gmail.com](mailto:nathawatr7@gmail.com).
