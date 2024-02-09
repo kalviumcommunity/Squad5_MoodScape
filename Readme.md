@@ -21,7 +21,7 @@ MoodScape is a mood-based music playlist generator with a modern UI. This projec
 
 To get started with MoodScape, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/yourusername/MoodScape.git`
+1. Clone the repository: `git clone [https://github.com/yourusername/MoodScape.git](https://github.com/kalviumcommunity/Squad5_MoodScape)`
 2. Install dependencies: `npm install`
 3. Run the application: `npm start`
 
@@ -38,4 +38,4 @@ We welcome contributions from the community! If you'd like to contribute to Mood
 
 ## Contact
 
-For inquiries or support, please contact [projectmaintainer@example.com](mailto:nathawatr7@gmail.com).
+For inquiries or support, please contact [nathawatr7@gmail.com](mailto:nathawatr7@gmail.com).
