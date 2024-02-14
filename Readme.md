@@ -4,7 +4,7 @@ MoodScape is a mood-based music playlist generator with a modern UI. This projec
 
 ## Features
 
-- **Mood Detection**: MoodScape utilizes advanced algorithms to analyze user input and detect their current mood.
+- **Mood Detection**: MoodScape utilizes algorithms to analyze user input and detect their current mood.
 - **Customizable Playlists**: Users can customize their playlists based on specific moods, genres, or preferences.
 - **Modern UI**: The application features a sleek and modern user interface designed for ease of use and aesthetic appeal.
 - **Music Recommendations**: MoodScape suggests tracks and artists that align with the user's mood, ensuring a personalized listening experience.
