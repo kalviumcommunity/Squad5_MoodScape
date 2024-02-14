@@ -24,6 +24,7 @@ To get started with MoodScape, follow these steps:
 1. Clone the repository: `git clone [https://github.com/yourusername/MoodScape.git](https://github.com/kalviumcommunity/Squad5_MoodScape)`
 2. Install dependencies: `npm install`
 3. Run the application: `npm start`
+4. Render.com link: `https://moodscape-6879.onrender.com/ping`
 
 ## Contributing
 
