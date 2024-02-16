@@ -1,0 +1,94 @@
+const MoodScapeData=[
+    {
+      "poster": "https://i.kfs.io/album/global/57692558,2v1/fit/500x500.jpg",
+      "songName": "Death In My Pocket",
+      "artist": "Machine Gun Kelly",
+      "songLength": "3:00",
+      "albumName": "Hotel Diablo",
+      "genre": "Hip-Hop/Emo",
+      "mood": "Sad"
+    },
+    {
+      "poster": "https://upload.wikimedia.org/wikipedia/en/d/d0/Long-Way_cover.jpg",
+      "songName": "Another Love",
+      "artist": "Tom Odell",
+      "songLength": "4:04",
+      "albumName": "Long Way Down",
+      "genre": "Indie Pop/Pop",
+      "mood": "Sad"
+    },
+    {
+      "poster": "https://i.scdn.co/image/ab67616d0000b27361a8fcc1b2d14a93bd8003a9",
+      "songName": "Coal",
+      "artist": "Dylan Gossett",
+      "songLength": "3:14",
+      "albumName": "Coal",
+      "genre": "Country",
+      "mood": "Sad"
+    },
+    {
+      "poster": "https://i.scdn.co/image/ab67616d00001e0213b3e37318a0c247b550bccd",
+      "songName": "Photograph",
+      "artist": "Ed Sheeran",
+      "songLength": "4:19",
+      "albumName": "X (Deluxe Version)",
+      "genre": "Indie Pop/Folk-pop",
+      "mood": "Love"
+    },
+    {
+      "poster": "https://upload.wikimedia.org/wikipedia/en/4/45/Divide_cover.png",
+      "songName": "Perfect",
+      "artist": "Ed Sheeran",
+      "songLength": "3:40",
+      "albumName": "÷ (Deluxe Version)",
+      "genre": "Pop",
+      "mood": "Love"
+    },
+    {
+      "poster": "https://upload.wikimedia.org/wikipedia/en/a/a0/Hozier_-_Hozier.png",
+      "songName": "Like Real People Do",
+      "artist": "Hozier",
+      "songLength": "3:19",
+      "albumName": "Hozier",
+      "genre": "Blues/Soul Music",
+      "mood": "Love"
+    },
+    {
+      "poster": "https://upload.wikimedia.org/wikipedia/en/d/d5/Hozier_-_Unreal_Unearth.png",
+      "songName": "To Someone From A Warm Climate",
+      "artist": "Hozier",
+      "songLength": "4:02",
+      "albumName": "Unreal Unearth",
+      "genre": "Alternative /Indie",
+      "mood": "Love"
+    },
+    {
+      "poster": "https://images.genius.com/6547ce595eac7a85de56abf3aaa79fd7.1000x1000x1.png",
+      "songName": "Skin and Bones",
+      "artist": "David Kushner",
+      "songLength": "3:34",
+      "albumName": "Skin and Bones",
+      "genre": "Alternative /Indie",
+      "mood": "Sad"
+    },
+    {
+      "poster": "https://i.scdn.co/image/ab67616d0000b273ef506280e70e4dbba1c94bc9",
+      "songName": "Persephone",
+      "artist": "Tamino",
+      "songLength": "5:05",
+      "albumName": "Amir",
+      "genre": "Alternative /Indie",
+      "mood": "Sad"
+    },
+    {
+      "poster": "https://upload.wikimedia.org/wikipedia/en/1/13/Noah_Kahan_-_Stick_Season.png",
+      "songName": "Northern Attitude",
+      "artist": "Noah Kahan",
+      "songLength": "4:27",
+      "albumName": "Stick Season",
+      "genre": "Alternative /Indie",
+      "mood": "Sad"
+    }
+  ]
+  
+module.exports= MoodScapeData;
