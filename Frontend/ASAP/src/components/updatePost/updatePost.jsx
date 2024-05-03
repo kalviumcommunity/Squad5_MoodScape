@@ -84,7 +84,6 @@ export function UpdatePost() {
           <option value="ID">ID</option>
           <option value="songName">Song Name</option>
           <option value="artist">Artist</option>
-          {/* Add more options as needed */}
         </select>
         <input
           type="text"
