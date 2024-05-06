@@ -10,7 +10,8 @@ export function AddPost() {
     songLength: "",
     albumName: "",
     genre: "",
-    mood: ""
+    mood: "",
+    created_by: "" // Changed from "created by" to "created_by"
   });
   const [submitMessage, setSubmitMessage] = useState("");
 
@@ -27,7 +28,8 @@ export function AddPost() {
         songLength: "",
         albumName: "",
         genre: "",
-        mood: ""
+        mood: "",
+        created_by: "" // Ensure consistency
       });
       setTimeout(() => {
         setSubmitMessage("");
@@ -118,6 +120,15 @@ export function AddPost() {
             type="text"
             name="mood"
             value={formData.mood}
+            onChange={handleChange}
+          />
+        </div>
+        <div>
+          <label>created by:</label>
+          <input
+            type="text"
+            name="created_by" // Changed from "created by" to "created_by"
+            value={formData.created_by}
             onChange={handleChange}
           />
         </div>

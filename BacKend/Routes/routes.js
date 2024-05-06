@@ -20,8 +20,8 @@ CRUD_routes.post("/Create", async (req, res) => {
   if (checkID) {
     return res.status(400).send("ID already exists");
   }
-  const { ID, poster, songName,artist,songLength,albumName,genre,mood } = req.body;
-  let payload = { ID, poster, songName,artist,songLength,albumName,genre,mood };
+  const { ID, poster, songName,artist,songLength,albumName,genre,mood, created_by } = req.body;
+  let payload = { ID, poster, songName,artist,songLength,albumName,genre,mood, created_by };
 
   console.log(payload);
   try {
@@ -35,7 +35,7 @@ CRUD_routes.post("/Create", async (req, res) => {
 CRUD_routes.put("/Update/:id", async (req, res) => {
   try {
     const frontEndID = req.params.id;
-    const { poster, songName,artist,songLength,albumName,genre,mood } = req.body;
+    const { poster, songName,artist,songLength,albumName,genre,mood, created_by } = req.body;
 
     // Check if the post with the given ID exists
     const existingPost = await MoodScapeModel.findOne({ ID: frontEndID });
@@ -46,7 +46,7 @@ CRUD_routes.put("/Update/:id", async (req, res) => {
     // Update the post 
     const updatedPost = await MoodScapeModel.findOneAndUpdate(
       { ID: frontEndID },
-      { poster, songName,artist,songLength,albumName,genre,mood},
+      { poster, songName,artist,songLength,albumName,genre,mood, created_by},
       { new: true } // Return the updated document
     );
 
