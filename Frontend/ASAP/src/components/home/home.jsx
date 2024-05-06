@@ -20,7 +20,8 @@ export function Home({ filteredCreator }) {
     getData();
   }, []);
 
-  const filteredData = filteredCreator ? data.filter(post => post.Created_By === filteredCreator) : data;
+  const filteredData = filteredCreator ? data.filter(post => post.created_by === filteredCreator) : data;
+
 
   return (
     <div className="container">

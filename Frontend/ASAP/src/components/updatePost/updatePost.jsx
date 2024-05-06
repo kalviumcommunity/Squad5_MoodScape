@@ -6,14 +6,15 @@ export function UpdatePost() {
   const [searchOption, setSearchOption] = useState("ID");
   const [searchResults, setSearchResults] = useState([]);
   const [formData, setFormData] = useState({
-    ID: "",
-    poster: "",
-    songName: "",
-    artist: "",
-    songLength: "",
-    albumName: "",
-    genre: "",
-    mood: ""
+        ID: "",
+        poster: "",
+        songName: "",
+        artist: "",
+        songLength: "",
+        albumName: "",
+        genre: "",
+        mood: "",
+        created_by: ""
   });
   const [submitMessage, setSubmitMessage] = useState("");
 
@@ -98,9 +99,12 @@ export function UpdatePost() {
           searchResults.map((post) => (
             <div key={post._id}>
               <p>ID: {post.ID}</p>
-              <p>Song Name: {post.songName}</p>
-              <p>Artist: {post.artist}</p>
-              {/* Add more fields here */}
+              <h3>songName: {post.songName}</h3>
+              <h3>artist: {post.artist}</h3>
+              <h3>songLength: {post.songLength}</h3>
+              <h3>albumName: {post.albumName}</h3>
+              <h3>genre: {post.genre}</h3>
+              <h3>created_by: {post.created_by}</h3>
               <button onClick={() => handleUpdateClick(post)}>Update</button>
             </div>
           ))
@@ -159,6 +163,15 @@ export function UpdatePost() {
           placeholder="Mood"
           onChange={handleChange}
         />
+        <div>
+          <label>created by:</label>
+          <input
+            type="text"
+            name="created_by" // Changed from "created by" to "created_by"
+            value={formData.created_by}
+            onChange={handleChange}
+          />
+        </div>
         <button type="submit">Update Post</button>
       </form>
       {submitMessage && <p>{submitMessage}</p>}

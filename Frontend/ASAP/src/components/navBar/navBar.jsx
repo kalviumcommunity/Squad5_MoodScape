@@ -11,7 +11,7 @@ export function Navbar({ setFilteredCreator }) {
     const fetchCreatorOptions = async () => {
       try {
         const response = await axios.get("http://localhost:3000/routes"); // Adjust the endpoint URL accordingly
-        const creators = response.data.map(post => post.created_By);
+        const creators = response.data.map(post => post.created_by);
         const uniqueCreators = [...new Set(creators)];
         setCreatorOptions(uniqueCreators);
       } catch (error) {

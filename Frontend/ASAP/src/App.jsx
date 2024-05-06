@@ -20,7 +20,7 @@ function App() {
     <>
       <Navbar setFilteredCreator={setFilteredCreator} /> 
       <Routes>
-        <Route path="/" element={<Home filteredCreator={filteredCreator} />} /> 
+        <Route path="/" element={<Home filteredCreator={filteredCreator} />} />
         <Route path="/add-post" element={<AddPost />} />
         <Route path="/update-post" element={<UpdatePost />} />
         <Route path="/delete-post" element={<DeletePost />} />
